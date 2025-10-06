@@ -2,7 +2,37 @@
 .border{
     border: 2px dashed cadetblue;
 }
+/* 2 types of elements:
+    block - take up the whole row (page)
+    inline - the items fill in next to each other across the row (page)
+    div is a block element */
 /* This applies to the inner div */
 .inner{
+    width: 442px;
+    height:100px;
 
+    /* Paddign is space around the content */
+    padding: 20px;
+
+    
+/* setting the padding from top, right, bottom, left */
+    padding:15% 2% 15% 20px;
+    /* adds a different sized border */
+    border: 2px dotted cornflowerblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* margin is teh space outside the border */
+    /* margin: 20px evenly addds 20 px to each side */
+
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 3%;
+
+    /* setting the margin from the top, right, bottom, left */
+    margin: 5%, 3%, 5%, 3%
+}
+
+h1{
+    color:aqua
 }
