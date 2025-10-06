@@ -1,0 +1,8 @@
+/* Will add a border around the outer div */
+.border{
+    border: 2px dashed cadetblue;
+}
+/* This applies to the inner div */
+.inner{
+
+}
